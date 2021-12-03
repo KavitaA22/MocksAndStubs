@@ -78,11 +78,5 @@ public class HeatingPlanTest {
         HeatingPlan heatingPlan = new HeatingPlan(HPTempRange);
         ARoom aRoom = new ARoom(RoomTempRange);
         assertFalse(heatingPlan.withInRange(aRoom.getRoomTempRange()));
-
-        System.out.println(aRoom.getRoomTempRange().getLow());
-        System.out.println(aRoom.getTempRange());
-        System.out.println(heatingPlan.getTempRangeAsString());
-        System.out.println(heatingPlan.getTempRange().getLow());
-        System.out.println(aRoom.getRoomTempRange().getLow());
     }
 }

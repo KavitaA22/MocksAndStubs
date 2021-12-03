@@ -24,9 +24,9 @@ test {
 pactBrokerUrl = 'a'
 pactBrokerUsername = 'b'
 pactBrokerPassword = 'd'
-***REMOVED*** = 'c'
+catalyst = 'c'
 
 pactBrokerUrl = '***REMOVED***'
 pactBrokerUsername = '***REMOVED***'
-pactBrokerPassword = '***REMOVED***'
+pactBrokerPassword ***REMOVED***
 pactBrokerToken = '***REMOVED***'
