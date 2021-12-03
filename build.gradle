@@ -21,6 +21,11 @@ test {
     useJUnitPlatform()
 }
 
+pactBrokerUrl = 'a'
+pactBrokerUsername = 'b'
+pactBrokerPassword = 'd'
+***REMOVED*** = 'c'
+
 pactBrokerUrl = '***REMOVED***'
 pactBrokerUsername = '***REMOVED***'
 pactBrokerPassword = '***REMOVED***'
