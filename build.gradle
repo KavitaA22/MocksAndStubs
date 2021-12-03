@@ -20,3 +20,8 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+pactBrokerUrl = '***REMOVED***'
+pactBrokerUsername = '***REMOVED***'
+pactBrokerPassword = '***REMOVED***'
+pactBrokerToken = '***REMOVED***'
