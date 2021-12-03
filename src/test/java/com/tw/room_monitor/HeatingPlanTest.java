@@ -86,5 +86,6 @@ public class HeatingPlanTest {
         System.out.println(aRoom.getRoomTempRange().getLow());
         System.out.println(aRoom.getRoomTempRange().low);
         System.out.println(aRoom.getRoomTempRange().high);
+        System.out.println(aRoom.getRoomTempRange().getHigh());
     }
 }
