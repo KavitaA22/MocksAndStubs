@@ -85,6 +85,6 @@ public class HeatingPlanTest {
         System.out.println(heatingPlan.getTempRange().getLow());
         System.out.println(aRoom.getRoomTempRange().getLow());
         System.out.println(aRoom.getRoomTempRange().low);
-
+        System.out.println("Thanks For Using System");
     }
 }
