@@ -31,10 +31,7 @@ public class ARoomTest {
 
     @Test
     void shouldAbleToReturnRoomWithTempRange() {
-        //System.out.println(aRoom.getTempRange());
-        //System.out.println(tempRange.getHigh());
-       // System.out.println(tempRange.getLow());
-       // System.out.println(tempRange.high);
+
         assertEquals("10.0 20.0",aRoom.getTempRange());
 
         TempRange tempRangeB = new TempRange(30,50);

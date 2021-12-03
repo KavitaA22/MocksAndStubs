@@ -69,13 +69,6 @@ public class HeatingPlanTest {
         ARoom aRoom = new ARoom(RoomTempRange);
         assertTrue(heatingPlan.withInRange(aRoom.getRoomTempRange()));
 
-//        System.out.println(heatingPlan.getTempRange().getLow() >= aRoom.getRoomTempRange().getLow());
-//        System.out.println(aRoom.getRoomTempRange().getLow());
-//        System.out.println(aRoom.getTempRange());
-//        System.out.println(heatingPlan.getTempRangeAsString());
-//        System.out.println(heatingPlan.getTempRange().getLow());
-//        System.out.println(aRoom.getRoomTempRange().getLow());
-//        System.out.println(aRoom.getRoomTempRange().low);
     }
 
     @Test
